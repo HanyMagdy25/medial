@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 
 import Navigation from "./Navigation/Navigation";
+import Footer from "./Footer/Footer";
 
 export default function Layout({ title, children, description }) {
   //   const classes = useStyles();
@@ -16,7 +17,6 @@ export default function Layout({ title, children, description }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
         {/* <title>{title? `${title}-Next Amazon` : "Next Amazon"}</title> */}
         {/* {description && <meta name="description" content={description}></meta>} */}
-
       </Head>
       {/* ******* Start Navbar ********* */}
       <Navigation />
@@ -25,9 +25,7 @@ export default function Layout({ title, children, description }) {
       {/* ******** Start Children ******** */}
       <div className="children-div">{children}</div>
       {/* ******** Start Footer ******** */}
-      <footer>
-        <span>all right reserved . next amazona</span>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -3,12 +3,12 @@ import { useState } from "react";
 import NextLink from "next/link";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 const ExpandMenu = ({route}) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  console.log("route",route)
+  // console.log("route",route)
   return (
     <div>
       <div className="MenuButton" onClick={toggleMenu}>
