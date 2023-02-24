@@ -8,6 +8,7 @@ import '../styles/Features.css'
 import '../styles/GalleryHome.css'
 import '../styles/Contact.css'
 import '../styles/Statics.css'
+import '../styles/testimonials.css'
 // add bootstrap css 
 import 'bootstrap/dist/css/bootstrap.css'
 function MyApp({ Component, pageProps }) {

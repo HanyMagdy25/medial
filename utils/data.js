@@ -24,7 +24,7 @@ export const navTitle = [
     title: "Products",
     path: "/products",
     subRoutes: [
-      { name: "products 1", link: "/products1" },
+      { name: "Testimonials", link: "/testimonials" },
       { name: "products 2", link: "/products2" },
       { name: "products 3", link: "/products3" },
     ],

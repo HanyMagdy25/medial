@@ -52,10 +52,10 @@
   .gridd h3 {
     font-size: 3rem;
     margin: 0 0 0;
-}
-.gridd p {
+  }
+  .gridd p {
     font-size: 1.1rem;
     margin: 0;
     line-height: 1.8em;
-}
+  }
 }
