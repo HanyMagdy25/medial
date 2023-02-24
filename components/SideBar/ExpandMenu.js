@@ -21,7 +21,7 @@ const ExpandMenu = ({route ,isOpen}) => {
         {route.subRoutes.map((subRoute) => (
           <NextLink
             className="SubRoute"
-            href={subRoute.name}
+            href={subRoute.link}
             key={subRoute.link}
           >
             {subRoute.name}
