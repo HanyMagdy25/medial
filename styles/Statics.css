@@ -1,0 +1,61 @@
+.usersRateSection {
+  background: url(../assets/pexels-vidal.jpg) no-repeat 50%;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  z-index: 1;
+  background-attachment: fixed;
+  padding: 100px 0;
+  color: var(--color-white);
+}
+.usersRateSection::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #202026;
+  content: "";
+  z-index: -1;
+  opacity: 0.5;
+}
+.gridd {
+  width: 25%;
+  float: left;
+  position: relative;
+}
+.gridd h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 0 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gridd p {
+  font-size: 1.3333333333rem;
+  margin: 0;
+  line-height: 1.8em;
+}
+
+@media screen and (max-width: 768px) {
+  .gridd {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .gridd {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .gridd h3 {
+    font-size: 3rem;
+    margin: 0 0 0;
+}
+.gridd p {
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.8em;
+}
+}

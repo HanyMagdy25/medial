@@ -10,7 +10,7 @@ const SideBar = ({ isOpen, toggleDrawer }) => {
   return (
     <>
       {isOpen && <div className="Backdrop" onClick={toggleDrawer} />}
-      <div className={`SDrawer ${isOpen && "isOpen"}`} isOpen={isOpen}>
+      <div className={`SDrawer ${isOpen && "isOpen"}`} >
         <div className="RightNav">
           {/* <h2 className="SNavbarBrand ">LOGO</h2> */}
           <NextLink href="/" className="navbar-logo">
@@ -19,7 +19,7 @@ const SideBar = ({ isOpen, toggleDrawer }) => {
           <div className="NavRoutes ">
             {navTitle.map((route) => {
               if (route.subRoutes) {
-                return <ExpandMenu route={route} key={route.title} />;
+                return <ExpandMenu route={route} key={route.title} isOpen={isOpen}/>;
               }
               return (
                 <NextLink
