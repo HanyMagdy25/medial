@@ -10,7 +10,7 @@ const TestimonialsComponent = () => {
           <Image src={testi1} alt="doctor-name" width="1000" height="1000" />
         </div>
         <div className="col-12 col-lg-9">
-          <div class="testimonial ">
+          <div className="testimonial ">
             <blockquote>
               Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
               auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus

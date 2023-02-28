@@ -10,7 +10,8 @@
   position: fixed;
   width: 100%;
   z-index: 2;
-  box-shadow: 0px 6px 14px #0000001c;
+  /* box-shadow: 0px 6px 14px #0000001c; */
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
 }
 
 .navbar-container {
@@ -61,6 +62,7 @@
   height: 100%; /* the most important*/
   font-size: 20px;
   font-weight: 600;
+  transition: all 0.2s;
 }
 .nav-links svg {
   /* color: var(--white); */
@@ -73,20 +75,17 @@
 .nav-links:hover {
   /* border-bottom: 4px solid var(--white); */
   color: var(--color-main1);
-  transition: all 0.1s;
+  
 }
-
 .arrowDown {
   transition: all 0.2s;
 }
 .nav-links:hover .arrowDown {
   transform: rotate(180deg);
 }
-
 .nav-links-mobile {
   display: none;
 }
-
 .menu-icon {
   display: none;
 }

@@ -9,6 +9,8 @@ import '../styles/GalleryHome.css'
 import '../styles/Contact.css'
 import '../styles/Statics.css'
 import '../styles/testimonials.css'
+import '../styles/News.css'
+import '../styles/Media.css'
 // add bootstrap css 
 import 'bootstrap/dist/css/bootstrap.css'
 function MyApp({ Component, pageProps }) {
