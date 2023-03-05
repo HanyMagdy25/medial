@@ -53,7 +53,7 @@
 }
 /* Track */
 .mediaArticleContent__images__right::-webkit-scrollbar-track {
-  background: rgba(166, 166, 166, 0.856);
+  background: #0000001c;
   border-radius: 50px;
 }
 
@@ -67,6 +67,16 @@
   font-size: 24px;
   line-height: 1.58em;
   font-weight: 500;
+}
+/* ====== Related ========= */
+.related__title{
+  color: var(--color-main2);
+  margin: 30px 0 20px 0;
+}
+.related__posts{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 3.5%;
 }
 @media screen and (max-width: 992px) {
   .mediaArticleContent__images {

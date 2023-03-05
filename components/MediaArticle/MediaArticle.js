@@ -21,7 +21,7 @@ const MediaArticle = () => {
       {!oneArticle ? (
         <p>Loading</p>
       ) : (
-        <div className="mediaArticle container">
+        <div className="mediaArticle">
           <div className="mediaArticleContent__images mt-2">
             <div className="mediaArticleContent__images__selected">
               <Image
